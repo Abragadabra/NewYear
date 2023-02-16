@@ -1,13 +1,10 @@
-@font-face {
-    font-family: RaleWay;
-    src: url(../source/fonts/Raleway-Bold.ttf) format('opentype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: RaleWay;
+    font-family: 'Raleway', sans-serif;
     color: white;
 
     -webkit-user-select: none;
