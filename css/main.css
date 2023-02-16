@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
-    color: white;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	color: white;
 
-    -webkit-user-select: none;
+	-webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -15,40 +15,40 @@
 }
 
 .video-block {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+	position: relative;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 .video-block_body {
-    padding: 50px 15px;
-    background-color: rgba(0, 0, 0, 0.308);
-    position: relative;
-    z-index: 2;
-    display: flex;
-    flex: 1 1 auto;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-transform: uppercase;
+	padding: 50px 15px;
+	background-color: rgba(0, 0, 0, 0.308);
+	position: relative;
+	z-index: 2;
+	display: flex;
+	flex: 1 1 auto;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-transform: uppercase;
 }
 
 .video-block_video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .video-block_title {
-    font-size: 50px;
-    letter-spacing: 15px;
-    margin: 0px 0px 20px 0px;
+	font-size: 50px;
+	letter-spacing: 15px;
+	margin: 0px 0px 20px 0px;
 }
 
 .video-block_text {
-    font-size: 25px;
+	font-size: 25px;
 }
